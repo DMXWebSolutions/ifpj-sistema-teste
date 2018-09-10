@@ -1,0 +1,8 @@
+.notificationsContent {
+    display: flex;
+    justify-content: center;
+}
+
+.card-description {
+    overflow: hidden
+}

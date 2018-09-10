@@ -1,0 +1,49 @@
+aside.menu-area {
+    background-color: var(--bg-blue);
+    box-shadow:
+        -5px 0 5px -5px rgba(0, 0, 0, 0.12),
+        -5px 0 10px -5px rgba(0, 0, 0, 0.09);
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    padding: 15px;
+}
+.menu a i {
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+
+.menu a:hover {
+    background: linear-gradient(135deg, #07a7a3 0%, #32dac3 100%);
+}
+
+.user-box {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+}
+
+.user-box p {
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 1.2rem;
+}
+
+.user-name {
+    font-size: 1.5rem;
+    margin-top: 12px;
+    color: white;
+
+}
+
+.logout {
+    color: #fff;
+}

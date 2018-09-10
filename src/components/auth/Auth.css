@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    height: 100vh;
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContent {
+    width: 400px;
+    height: 420px;
+    /* background-color: #fff; */
+    border-radius: 15px;
+
+}
+
+.logoContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.formContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%
+}
+
+.label {
+    font-size: 15px;
+    font-weight: bold;
+}
